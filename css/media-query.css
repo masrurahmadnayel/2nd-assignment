@@ -1,0 +1,26 @@
+@media (max-width:992px){
+    .heading-section{
+        display: block;
+    }
+    .heading-section-h1{
+        top: 50px;
+        margin-left: 0;
+    }
+}
+@media (max-width:710px){
+    .container-fluid .navbar-brand img{
+        width: 400px;
+    }
+    .heading-section img{
+        margin-left: 10px;
+        max-width: 415px;
+        position: relative;
+        top: 320px;
+    }
+    .heading-section-h1{
+        margin-left: 10px;
+        max-width: 415px;
+        position: relative;
+        top: -350px;
+    }
+}
