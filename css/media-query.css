@@ -6,6 +6,30 @@
         top: 50px;
         margin-left: 0;
     }
+    .third-section-images{
+        left: 40%;
+    }
+    .my-width{
+        display: block;
+        overflow: hidden;
+        width: 500px;
+    }
+    .my-width h5, p{
+        text-align: center;
+    }
+    .my-flex{
+        flex-direction: column;
+    }
+    .last-image{
+        position: relative;
+        right: 50px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:760px){
+    .my-buttons{
+        padding: 15px 30px;
+    }
 }
 @media (max-width:710px){
     .container-fluid .navbar-brand img{
@@ -15,12 +39,32 @@
         margin-left: 10px;
         max-width: 415px;
         position: relative;
-        top: 320px;
+        top: 350px;
     }
     .heading-section-h1{
         margin-left: 10px;
         max-width: 415px;
         position: relative;
-        top: -350px;
+        top: -400px;
+    }
+    .third-section-images{
+        left: 40%;
+    }
+    .my-width{
+        display: block;
+        overflow: hidden;
+        width: 500px;
+    }
+    .my-width h5, p{
+        text-align: center;
+    }
+    .my-flex{
+        flex-direction: column;
+    }
+    .last-image{
+        position: relative;
+        right: 50px;
+        width: 100%;
     }
 }
+
